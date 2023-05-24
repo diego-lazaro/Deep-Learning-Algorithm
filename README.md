@@ -1,13 +1,13 @@
-# Optimize a Deep Learning Algorithm and Neural Network
+# Optimize a Neural Network and Deep Learning Algorithm 
 
-The purpose of this analysis is to create a model that will help a nonprofit foundation called AlphabetSoup. The model created will help choose applicants for funding which will the best chance of sucess in their ventures. I have created a binary classifier that will predict whether applicants will be successful, if funded by AlphabetSoup
+The purpose of this analysis is to create a model that will help a nonprofit foundation called AlphabetSoup. The model created will help choose applicants for funding that will have the best chance of sucess in their ventures. A model was created with a binary classifier that will predict whether applicants will be successful, if funded by AlphabetSoup.
 
 <img width="1112" alt="image" src="https://github.com/diego-lazaro/deep_learning_challenge/assets/115186079/7551743b-7391-494a-9087-ca7ee4d6410f">
 
 
 # Step 1: Data Preprocessing
 
-The target variable for this model is the "IS_SUCCESSFUL" column. The features of the model are "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS" "INCOME_AMT", "SPECIAL_CONSIDERATIONS", and "ASK_AMT". There were two dataset columns that had irrelevant data, which were "EIN" and "NAME." These columns were removed because they were NOT the targets or features variables needed for the model. The model revealed if the two columns were NOT dropped then the session would crash due to exceeding Google Colab's RAM usage limit.
+The target variable for this model is the "IS_SUCCESSFUL" column. The features of the model are "APPLICATION_TYPE", "AFFILIATION", "CLASSIFICATION", "USE_CASE", "ORGANIZATION", "STATUS" "INCOME_AMT", "SPECIAL_CONSIDERATIONS", and "ASK_AMT". There were two dataset columns that had irrelevant data, which were "EIN" and "NAME." These columns were removed because they were NOT the target or feature variables needed for this model. The model revealed if the two columns were NOT dropped then the session would crash due to exceeding Google Colab's RAM usage limit.
 
 <img width="674" alt="image" src="https://github.com/diego-lazaro/deep_learning_challenge/assets/115186079/332a2559-f371-4496-adfe-2c1daefd78be">
 
