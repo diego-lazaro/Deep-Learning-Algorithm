@@ -14,7 +14,7 @@ The target variable for this model is the "IS_SUCCESSFUL" column. The features o
 
 # Step 2: Compile, Train, and Evaluate the Model
 
-The orginal model contained 3 layers with values of 7, 14, and 1 neuron in each layer. These were arbitrary numbers which were used as a starting point for the model. The target accuracy of at least 75% was not achieved by the orginal model with 100 epochs. 
+The orginal model contained 3 layers with values of 8, 17, and 1 neuron in each layer. These were arbitrary numbers which were used as a starting point for the model. The target accuracy of at least 75% was not achieved by the orginal model with 100 epochs. 
 
 # Step 3: Optimize the Model
 
