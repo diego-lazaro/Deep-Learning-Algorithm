@@ -22,6 +22,7 @@ The model was optimized twice by making adjustments to the layers. This was acco
 
 # Conclusion 
 
-The most accurate model observed had only 3 hidden layers with 7, 14, and 1 neurons in each layer. This model had a cutoff value of 500 for application types and a cutoff of 100 for classification and ran over 100 epochs. This model achieved 73% accuracy. This was done by adding more layers and neurons, changing the epochs, and adding lower cutoffs for binning. By doing this, decreased the accuracy of the model. The model was adjusted by running the model with all of the original columns to the dataset but the session crashed. A new model with fewer features, similar layers and neurons, and higher cutoffs would most likely solve the classification problem.
+The most accurate model observed had only 3 hidden layers with 8, 17, and 1 neurons in each layer. This model had a cutoff value of 500 for application types and a cutoff of 100 for classification and ran over 100 epochs. This model achieved 73% accuracy. This was done by adding more layers and neurons, changing the epochs, and adding lower cutoffs for binning. By doing this, decreased the accuracy of the model. The model was adjusted by running the model with all of the original columns to the dataset but the session crashed. A new model with fewer features, similar layers and neurons, and higher cutoffs would most likely solve the classification problem.
 
-<img width="440" alt="image" src="https://github.com/diego-lazaro/deep_learning_challenge/assets/115186079/18384160-3bb4-4b0b-8012-4a92a8dff5b7">
+<img width="394" alt="image" src="https://github.com/diego-lazaro/deep_learning_challenge/assets/115186079/e5a860aa-6265-48be-b2f5-f7fa20a4e1ef">
+
